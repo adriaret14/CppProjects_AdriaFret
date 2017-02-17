@@ -2,6 +2,13 @@
 #include <string>
 #include <time.h> 
 
+
+bool operator==(Enemy e1, Enemy e2) {
+	if (e1.clase == e2.clase && e1.name == e2.name) {
+		return true;
+	}
+	return false;
+}
 using namespace std;
 
 enum class EnemyType { zombie, vampire, ghost, witch };
@@ -61,6 +68,7 @@ int main() {
 
 	cout << GetEnemyTypeString(enemigo1.clase);
 
+	Enemy lista[5] = {enemigo1, enemigo2, enemigo3, enemigo4, enemigo5};
 
 	//cout << static_cast<int>(enemigo.type);
 	
