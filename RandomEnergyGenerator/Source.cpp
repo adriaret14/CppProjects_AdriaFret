@@ -70,6 +70,7 @@ int main() {
 
 	Enemy lista[5] = {enemigo1, enemigo2, enemigo3, enemigo4, enemigo5};
 
+
 	//cout << static_cast<int>(enemigo.type);
 	
 
