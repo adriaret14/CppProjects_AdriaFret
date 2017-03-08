@@ -30,5 +30,7 @@ int main() {
 	}
 
 	std::cout << "\nRelleno el 1 con 9: \n";
+
+	std::cout << a2.size();
 	return 0;
 }
