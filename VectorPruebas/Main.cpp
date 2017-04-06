@@ -42,4 +42,14 @@ std::vector<int> AddVectors(std::vector<int> v1, std::vector<int> v2) {
 	return v3;
 }
 
-std::_Vector<>
+std::vector<std::string> ConcatVectors(std::vector<std::string>v1, std::vector<std::string> v2) {
+	
+	std::vector<std::string>v3(v1.size());
+
+	if (v1.size() == v2.size())
+	{
+		
+	}
+
+	return v3;
+}

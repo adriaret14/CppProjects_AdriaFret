@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing", "Testing\Testing.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorPruebas", "VectorPruebas\VectorPruebas.vcxproj", "{93187391-1130-420A-966B-C2B25378845C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayerRanking", "PlayerRanking\PlayerRanking.vcxproj", "{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,18 @@ Global
 		{93187391-1130-420A-966B-C2B25378845C}.Release|x64.Build.0 = Release|x64
 		{93187391-1130-420A-966B-C2B25378845C}.Release|x86.ActiveCfg = Release|Win32
 		{93187391-1130-420A-966B-C2B25378845C}.Release|x86.Build.0 = Release|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|ARM.ActiveCfg = Debug|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|x64.ActiveCfg = Debug|x64
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|x64.Build.0 = Debug|x64
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Debug|x86.Build.0 = Debug|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|ARM.ActiveCfg = Release|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|x64.ActiveCfg = Release|x64
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|x64.Build.0 = Release|x64
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|x86.ActiveCfg = Release|Win32
+		{B63AB1FF-4A3F-4E58-89B7-328318DBCA5B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
