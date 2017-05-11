@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A9038243-8369-4774-A968-602FFE1313C1}</ProjectGuid>
+    <ProjectGuid>{7D3EAE56-A9CB-48E6-AA81-2BD9C26452B7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ImplementacionSTLPropio</RootNamespace>
+    <RootNamespace>MyList</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,10 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="MyStack.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="MyList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
