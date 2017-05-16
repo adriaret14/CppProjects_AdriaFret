@@ -146,10 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MiLista.h" />
     <ClInclude Include="MyStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyList.cpp" />
+    <ClCompile Include="MiLista.cpp" />
+    <ClCompile Include="MyStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

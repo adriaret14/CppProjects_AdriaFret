@@ -18,9 +18,15 @@
     <ClInclude Include="MyStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MiLista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyList.cpp">
+    <ClCompile Include="MyStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiLista.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
