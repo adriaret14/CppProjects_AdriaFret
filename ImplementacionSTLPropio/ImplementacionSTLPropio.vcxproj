@@ -150,6 +150,7 @@
     <ClInclude Include="MyStack.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MiLista.cpp" />
     <ClCompile Include="MyStack.cpp" />
   </ItemGroup>

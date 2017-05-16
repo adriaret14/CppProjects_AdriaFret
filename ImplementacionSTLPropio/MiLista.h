@@ -11,19 +11,21 @@ public:
 		node* next;
 		node* previous;
 	};
-
 	node* last;
-	node* first;
+	node* frst;
 
 
 	void push_front(int);
 	void push_back(int);
 	void pop_front();
 	void pop_back();
-	int first();
-	int back();
-	int size();
+	int& first();
+	int& back();
+	int Getsize();
 	bool isEmpty();
+
+private:
+	int size;
 
 };
 
